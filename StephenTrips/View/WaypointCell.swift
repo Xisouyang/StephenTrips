@@ -1,0 +1,28 @@
+//
+//  WaypointCell.swift
+//  StephenTrips
+//
+//  Created by Stephen Ouyang on 5/19/19.
+//  Copyright © 2019 Stephen Ouyang. All rights reserved.
+//
+
+import UIKit
+import MapKit
+
+// cell for waypoint tableview
+class WaypointCell: UITableViewCell {
+    
+    static var identifier = "waypointCell"
+    var waypoint: Waypoint?
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        
+        // Configure the view for the selected state
+    }
+}

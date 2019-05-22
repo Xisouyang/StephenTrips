@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19E5B04FE3EEAE6CD6C1749A /* Pods_StephenTripsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5652D5E1602E73A75F3F935 /* Pods_StephenTripsTests.framework */; };
+		5D9901662291EE75005A5348 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9901652291EE75005A5348 /* CoreDataManager.swift */; };
+		5D9901692291EF12005A5348 /* UINavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9901682291EF12005A5348 /* UINavController.swift */; };
+		5D99016B2291EF43005A5348 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99016A2291EF43005A5348 /* Constants.swift */; };
+		5D99016E2291EFE1005A5348 /* TripsVC+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99016D2291EFE1005A5348 /* TripsVC+Constraints.swift */; };
+		5D9901782291F4BE005A5348 /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9901772291F4BE005A5348 /* AddTripViewController.swift */; };
+		5D99017A2291F535005A5348 /* AddTripVC+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9901792291F535005A5348 /* AddTripVC+Constraints.swift */; };
+		5D99017F2291F8D9005A5348 /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99017B2291F8D9005A5348 /* Trip+CoreDataClass.swift */; };
+		5D9901802291F8D9005A5348 /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99017C2291F8D9005A5348 /* Trip+CoreDataProperties.swift */; };
+		5D9901812291F8D9005A5348 /* Waypoint+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99017D2291F8D9005A5348 /* Waypoint+CoreDataClass.swift */; };
+		5D9901822291F8D9005A5348 /* Waypoint+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99017E2291F8D9005A5348 /* Waypoint+CoreDataProperties.swift */; };
+		5D9901842291FA7C005A5348 /* NoWaypointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9901832291FA7C005A5348 /* NoWaypointsViewController.swift */; };
+		5D9901862291FC58005A5348 /* NoWaypointsVC+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9901852291FC58005A5348 /* NoWaypointsVC+Constraints.swift */; };
+		5D990188229218F7005A5348 /* WaypointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D990187229218F7005A5348 /* WaypointsViewController.swift */; };
+		5D99018A22921A65005A5348 /* WaypointsVC+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99018922921A65005A5348 /* WaypointsVC+Constraints.swift */; };
+		5D99018C22921AF1005A5348 /* WaypointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99018B22921AF1005A5348 /* WaypointCell.swift */; };
+		5DF96435228E25E200F5BA86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF96434228E25E200F5BA86 /* AppDelegate.swift */; };
+		5DF96437228E25E200F5BA86 /* TripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF96436228E25E200F5BA86 /* TripsViewController.swift */; };
+		5DF9643D228E25E200F5BA86 /* StephenTrips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DF9643B228E25E200F5BA86 /* StephenTrips.xcdatamodeld */; };
+		5DF9643F228E25E400F5BA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF9643E228E25E400F5BA86 /* Assets.xcassets */; };
+		5DF96442228E25E400F5BA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF96440228E25E400F5BA86 /* LaunchScreen.storyboard */; };
+		5DF9644D228E25E400F5BA86 /* StephenTripsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF9644C228E25E400F5BA86 /* StephenTripsTests.swift */; };
+		78425C0F47D0422F4900C5B3 /* Pods_StephenTrips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08725A93CCEEA91F433EC10D /* Pods_StephenTrips.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DF96449228E25E400F5BA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF96429228E25E100F5BA86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF96430228E25E200F5BA86;
+			remoteInfo = StephenTrips;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08725A93CCEEA91F433EC10D /* Pods_StephenTrips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StephenTrips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1497F769BFD2B826D2F124 /* Pods-StephenTrips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StephenTrips.debug.xcconfig"; path = "Target Support Files/Pods-StephenTrips/Pods-StephenTrips.debug.xcconfig"; sourceTree = "<group>"; };
+		555560F39744ADD2B04335F8 /* Pods-StephenTrips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StephenTrips.release.xcconfig"; path = "Target Support Files/Pods-StephenTrips/Pods-StephenTrips.release.xcconfig"; sourceTree = "<group>"; };
+		5D9901652291EE75005A5348 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		5D9901682291EF12005A5348 /* UINavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavController.swift; sourceTree = "<group>"; };
+		5D99016A2291EF43005A5348 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5D99016D2291EFE1005A5348 /* TripsVC+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TripsVC+Constraints.swift"; sourceTree = "<group>"; };
+		5D9901772291F4BE005A5348 /* AddTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
+		5D9901792291F535005A5348 /* AddTripVC+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddTripVC+Constraints.swift"; sourceTree = "<group>"; };
+		5D99017B2291F8D9005A5348 /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5D99017C2291F8D9005A5348 /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5D99017D2291F8D9005A5348 /* Waypoint+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Waypoint+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5D99017E2291F8D9005A5348 /* Waypoint+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Waypoint+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5D9901832291FA7C005A5348 /* NoWaypointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoWaypointsViewController.swift; sourceTree = "<group>"; };
+		5D9901852291FC58005A5348 /* NoWaypointsVC+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoWaypointsVC+Constraints.swift"; sourceTree = "<group>"; };
+		5D990187229218F7005A5348 /* WaypointsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaypointsViewController.swift; sourceTree = "<group>"; };
+		5D99018922921A65005A5348 /* WaypointsVC+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaypointsVC+Constraints.swift"; sourceTree = "<group>"; };
+		5D99018B22921AF1005A5348 /* WaypointCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaypointCell.swift; sourceTree = "<group>"; };
+		5DF96431228E25E200F5BA86 /* StephenTrips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StephenTrips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF96434228E25E200F5BA86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DF96436228E25E200F5BA86 /* TripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewController.swift; sourceTree = "<group>"; };
+		5DF9643C228E25E200F5BA86 /* StephenTrips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StephenTrips.xcdatamodel; sourceTree = "<group>"; };
+		5DF9643E228E25E400F5BA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DF96441228E25E400F5BA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DF96443228E25E400F5BA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF96448228E25E400F5BA86 /* StephenTripsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StephenTripsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF9644C228E25E400F5BA86 /* StephenTripsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StephenTripsTests.swift; sourceTree = "<group>"; };
+		5DF9644E228E25E400F5BA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6025DE79240CE2A1B876D734 /* Pods-StephenTripsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StephenTripsTests.debug.xcconfig"; path = "Target Support Files/Pods-StephenTripsTests/Pods-StephenTripsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5652D5E1602E73A75F3F935 /* Pods_StephenTripsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StephenTripsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF35C05631DE4F10D2C08C5 /* Pods-StephenTripsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StephenTripsTests.release.xcconfig"; path = "Target Support Files/Pods-StephenTripsTests/Pods-StephenTripsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DF9642E228E25E200F5BA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78425C0F47D0422F4900C5B3 /* Pods_StephenTrips.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF96445228E25E400F5BA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E5B04FE3EEAE6CD6C1749A /* Pods_StephenTripsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D9901612291EDB6005A5348 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D99018B22921AF1005A5348 /* WaypointCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D9901622291EDBD005A5348 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D9901672291EEB9005A5348 /* Core Data */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D9901632291EDC4005A5348 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5DF96436228E25E200F5BA86 /* TripsViewController.swift */,
+				5D9901772291F4BE005A5348 /* AddTripViewController.swift */,
+				5D9901832291FA7C005A5348 /* NoWaypointsViewController.swift */,
+				5D990187229218F7005A5348 /* WaypointsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5D9901642291EDEE005A5348 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5D99016C2291EF7B005A5348 /* Constraints */,
+				5D99016A2291EF43005A5348 /* Constants.swift */,
+				5D9901682291EF12005A5348 /* UINavController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5D9901672291EEB9005A5348 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				5D99017B2291F8D9005A5348 /* Trip+CoreDataClass.swift */,
+				5D99017C2291F8D9005A5348 /* Trip+CoreDataProperties.swift */,
+				5D99017D2291F8D9005A5348 /* Waypoint+CoreDataClass.swift */,
+				5D99017E2291F8D9005A5348 /* Waypoint+CoreDataProperties.swift */,
+				5D9901652291EE75005A5348 /* CoreDataManager.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		5D99016C2291EF7B005A5348 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				5D99016D2291EFE1005A5348 /* TripsVC+Constraints.swift */,
+				5D9901792291F535005A5348 /* AddTripVC+Constraints.swift */,
+				5D9901852291FC58005A5348 /* NoWaypointsVC+Constraints.swift */,
+				5D99018922921A65005A5348 /* WaypointsVC+Constraints.swift */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		5DF96428228E25E100F5BA86 = {
+			isa = PBXGroup;
+			children = (
+				5DF96433228E25E200F5BA86 /* StephenTrips */,
+				5DF9644B228E25E400F5BA86 /* StephenTripsTests */,
+				5DF96432228E25E200F5BA86 /* Products */,
+				B1B2744232CDF9E22AB51B15 /* Pods */,
+				9D010C645E619CBAD2BB4468 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5DF96432228E25E200F5BA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF96431228E25E200F5BA86 /* StephenTrips.app */,
+				5DF96448228E25E400F5BA86 /* StephenTripsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DF96433228E25E200F5BA86 /* StephenTrips */ = {
+			isa = PBXGroup;
+			children = (
+				5DF96434228E25E200F5BA86 /* AppDelegate.swift */,
+				5D9901642291EDEE005A5348 /* Extensions */,
+				5D9901622291EDBD005A5348 /* Model */,
+				5D9901612291EDB6005A5348 /* View */,
+				5D9901632291EDC4005A5348 /* Controller */,
+				5DF9643E228E25E400F5BA86 /* Assets.xcassets */,
+				5DF96440228E25E400F5BA86 /* LaunchScreen.storyboard */,
+				5DF96443228E25E400F5BA86 /* Info.plist */,
+				5DF9643B228E25E200F5BA86 /* StephenTrips.xcdatamodeld */,
+			);
+			path = StephenTrips;
+			sourceTree = "<group>";
+		};
+		5DF9644B228E25E400F5BA86 /* StephenTripsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DF9644C228E25E400F5BA86 /* StephenTripsTests.swift */,
+				5DF9644E228E25E400F5BA86 /* Info.plist */,
+			);
+			path = StephenTripsTests;
+			sourceTree = "<group>";
+		};
+		9D010C645E619CBAD2BB4468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08725A93CCEEA91F433EC10D /* Pods_StephenTrips.framework */,
+				A5652D5E1602E73A75F3F935 /* Pods_StephenTripsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1B2744232CDF9E22AB51B15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E1497F769BFD2B826D2F124 /* Pods-StephenTrips.debug.xcconfig */,
+				555560F39744ADD2B04335F8 /* Pods-StephenTrips.release.xcconfig */,
+				6025DE79240CE2A1B876D734 /* Pods-StephenTripsTests.debug.xcconfig */,
+				EDF35C05631DE4F10D2C08C5 /* Pods-StephenTripsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DF96430228E25E200F5BA86 /* StephenTrips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF96451228E25E400F5BA86 /* Build configuration list for PBXNativeTarget "StephenTrips" */;
+			buildPhases = (
+				16ED5CBF4733A3ABFB476424 /* [CP] Check Pods Manifest.lock */,
+				5DF9642D228E25E200F5BA86 /* Sources */,
+				5DF9642E228E25E200F5BA86 /* Frameworks */,
+				5DF9642F228E25E200F5BA86 /* Resources */,
+				12C1F6891C3E3D50B8F060BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StephenTrips;
+			productName = StephenTrips;
+			productReference = 5DF96431228E25E200F5BA86 /* StephenTrips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DF96447228E25E400F5BA86 /* StephenTripsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF96454228E25E400F5BA86 /* Build configuration list for PBXNativeTarget "StephenTripsTests" */;
+			buildPhases = (
+				B1417EBFD3287FF25985C27D /* [CP] Check Pods Manifest.lock */,
+				5DF96444228E25E400F5BA86 /* Sources */,
+				5DF96445228E25E400F5BA86 /* Frameworks */,
+				5DF96446228E25E400F5BA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF9644A228E25E400F5BA86 /* PBXTargetDependency */,
+			);
+			name = StephenTripsTests;
+			productName = StephenTripsTests;
+			productReference = 5DF96448228E25E400F5BA86 /* StephenTripsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DF96429228E25E100F5BA86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Stephen Ouyang";
+				TargetAttributes = {
+					5DF96430228E25E200F5BA86 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5DF96447228E25E400F5BA86 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5DF96430228E25E200F5BA86;
+					};
+				};
+			};
+			buildConfigurationList = 5DF9642C228E25E200F5BA86 /* Build configuration list for PBXProject "StephenTrips" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DF96428228E25E100F5BA86;
+			productRefGroup = 5DF96432228E25E200F5BA86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DF96430228E25E200F5BA86 /* StephenTrips */,
+				5DF96447228E25E400F5BA86 /* StephenTripsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DF9642F228E25E200F5BA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF96442228E25E400F5BA86 /* LaunchScreen.storyboard in Resources */,
+				5DF9643F228E25E400F5BA86 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF96446228E25E400F5BA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12C1F6891C3E3D50B8F060BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StephenTrips/Pods-StephenTrips-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StephenTrips/Pods-StephenTrips-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16ED5CBF4733A3ABFB476424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StephenTrips-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1417EBFD3287FF25985C27D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StephenTripsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DF9642D228E25E200F5BA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9901802291F8D9005A5348 /* Trip+CoreDataProperties.swift in Sources */,
+				5D9901822291F8D9005A5348 /* Waypoint+CoreDataProperties.swift in Sources */,
+				5DF9643D228E25E200F5BA86 /* StephenTrips.xcdatamodeld in Sources */,
+				5D9901862291FC58005A5348 /* NoWaypointsVC+Constraints.swift in Sources */,
+				5D9901812291F8D9005A5348 /* Waypoint+CoreDataClass.swift in Sources */,
+				5D990188229218F7005A5348 /* WaypointsViewController.swift in Sources */,
+				5D99018A22921A65005A5348 /* WaypointsVC+Constraints.swift in Sources */,
+				5DF96437228E25E200F5BA86 /* TripsViewController.swift in Sources */,
+				5D9901692291EF12005A5348 /* UINavController.swift in Sources */,
+				5D9901662291EE75005A5348 /* CoreDataManager.swift in Sources */,
+				5D99017F2291F8D9005A5348 /* Trip+CoreDataClass.swift in Sources */,
+				5D9901782291F4BE005A5348 /* AddTripViewController.swift in Sources */,
+				5D99018C22921AF1005A5348 /* WaypointCell.swift in Sources */,
+				5DF96435228E25E200F5BA86 /* AppDelegate.swift in Sources */,
+				5D9901842291FA7C005A5348 /* NoWaypointsViewController.swift in Sources */,
+				5D99016E2291EFE1005A5348 /* TripsVC+Constraints.swift in Sources */,
+				5D99017A2291F535005A5348 /* AddTripVC+Constraints.swift in Sources */,
+				5D99016B2291EF43005A5348 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF96444228E25E400F5BA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF9644D228E25E400F5BA86 /* StephenTripsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DF9644A228E25E400F5BA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DF96430228E25E200F5BA86 /* StephenTrips */;
+			targetProxy = 5DF96449228E25E400F5BA86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DF96440228E25E400F5BA86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF96441228E25E400F5BA86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DF9644F228E25E400F5BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DF96450228E25E400F5BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DF96452228E25E400F5BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E1497F769BFD2B826D2F124 /* Pods-StephenTrips.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7Y8QKEC95;
+				INFOPLIST_FILE = StephenTrips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = S.StephenTrips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DF96453228E25E400F5BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555560F39744ADD2B04335F8 /* Pods-StephenTrips.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7Y8QKEC95;
+				INFOPLIST_FILE = StephenTrips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = S.StephenTrips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DF96455228E25E400F5BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6025DE79240CE2A1B876D734 /* Pods-StephenTripsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7Y8QKEC95;
+				INFOPLIST_FILE = StephenTripsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = S.StephenTripsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StephenTrips.app/StephenTrips";
+			};
+			name = Debug;
+		};
+		5DF96456228E25E400F5BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF35C05631DE4F10D2C08C5 /* Pods-StephenTripsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7Y8QKEC95;
+				INFOPLIST_FILE = StephenTripsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = S.StephenTripsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StephenTrips.app/StephenTrips";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DF9642C228E25E200F5BA86 /* Build configuration list for PBXProject "StephenTrips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF9644F228E25E400F5BA86 /* Debug */,
+				5DF96450228E25E400F5BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF96451228E25E400F5BA86 /* Build configuration list for PBXNativeTarget "StephenTrips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF96452228E25E400F5BA86 /* Debug */,
+				5DF96453228E25E400F5BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF96454228E25E400F5BA86 /* Build configuration list for PBXNativeTarget "StephenTripsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF96455228E25E400F5BA86 /* Debug */,
+				5DF96456228E25E400F5BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DF9643B228E25E200F5BA86 /* StephenTrips.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DF9643C228E25E200F5BA86 /* StephenTrips.xcdatamodel */,
+			);
+			currentVersion = 5DF9643C228E25E200F5BA86 /* StephenTrips.xcdatamodel */;
+			path = StephenTrips.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5DF96429228E25E100F5BA86 /* Project object */;
+}
